@@ -1,6 +1,7 @@
 package com.school.bean;
 
 public class User {
+//
 	private long id;
 	private String account;
 	private String nickname;

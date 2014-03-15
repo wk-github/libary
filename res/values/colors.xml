@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="list_lose">#DAD3F4</color>
+    <color name="list_press">#AAAAAA</color>
+    <color name="list_background">#EEEEEE</color>
+    <color name="list_font_color">#797878</color>
+    <color  name="login_backgrpund">#F1F1ED</color>
+    <color name="button_no_press">#FDFFFB</color>
+    <color name="button_press">#B6B6B5</color>
+</resources>

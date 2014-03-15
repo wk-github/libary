@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="@color/login_backgrpund"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <ImageButton
+        android:id="@+id/head_right_img"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="80dp"
+        android:background="@drawable/head_left_img" />
+
+    <TextView
+        android:id="@+id/head_text"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="6dp"
+        android:text="登录"
+        android:textColor="@color/list_font_color"
+        android:textSize="27sp" />
+
+    <ImageButton
+        android:id="@+id/head_left_img"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="80dp"
+        android:background="@drawable/head_right_img" />
+
+</LinearLayout>

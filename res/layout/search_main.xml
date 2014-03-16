@@ -1,0 +1,99 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/FrameLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="bottom|center|fill"
+   
+    android:clipToPadding="false"
+    tools:context=".MainActivity"
+    tools:ignore="ContentDescription,HardcodedText,UselessParent,ExtraText,InefficientWeight,Suspicious0dp" >
+   
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <ImageButton
+            android:id="@+id/Imgsearch"
+            android:layout_width="40dp"
+        	android:layout_height="40dp"
+        	android:layout_marginLeft="30dp"
+            android:background="@drawable/head_left_img" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearlayout2"
+        android:layout_width="92dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|right"
+        android:gravity="left|top" >
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="140dp"
+            android:background="#38000000"
+            android:src="@drawable/data" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearlayout3"
+        android:layout_width="match_parent"
+        android:layout_height="194dp"
+        android:layout_gravity="bottom"
+        android:gravity="bottom"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|left"
+            android:text="@string/tv_time"
+            android:textSize="50sp" >
+        </TextView>
+"
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:layout_gravity="center_vertical|center"
+            android:background="@drawable/sousuokuang"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center|fill"
+                android:orientation="horizontal" >
+
+                <ImageButton
+                    android:id="@+id/imageButton1"
+                    android:layout_width="33dp"
+                    android:layout_height="33dp"
+                    android:layout_gravity="left|center"
+                    android:background="@drawable/xiangji" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/autoCompleteTextView1"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/sousuokuang"
+                    android:ems="10"
+                    android:text="@string/autocompletetextview" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/luyin"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom|center"
+            android:background="@drawable/yuyin" />
+    </LinearLayout>
+    <com.school.view.SideBarView
+        android:id="@+id/ribbonMenuView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</FrameLayout>

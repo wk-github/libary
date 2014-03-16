@@ -3,5 +3,10 @@
 
     <string name="hello">Hello World</string>
     <string name="app_name">THEN</string>
-
+	
+    <string name="action_settings">Settings</string>
+    <string name="tv_date">三月六日</string>
+    <string name="tv_time">12:30PM</string>
+    <string name="autocompletetextview"></string>
+    <string name="tv_turn">人间词话</string>
 </resources>

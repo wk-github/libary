@@ -20,7 +20,7 @@ public class MainActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
-        setContentView(R.layout.main);
+        setContentView(R.layout.search_main);
         SideBarView sideBarView = (SideBarView) this.findViewById(R.id.ribbonMenuView1);
         OnGestureListenerEvent onGestureListenerEvent = new OnGestureListenerEvent(getApplicationContext(),sideBarView);
         detector = new GestureDetector(onGestureListenerEvent);

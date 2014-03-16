@@ -37,11 +37,11 @@ public class OnGestureListenerEvent implements OnGestureListener {
 		//œÚ”“ª¨∂Ø
 		 if (event1.getX() - event2.getX() < -110)
 		 {
-			 Toast.makeText(context, "right", Toast.LENGTH_LONG).show();
+			
 			 sideBarView.showListView();
 		 }else if(event1.getX() - event2.getX()>110)
 		 {
-			 Toast.makeText(context, "left", Toast.LENGTH_LONG).show();
+			 
 			 sideBarView.hiddenListView();
 		 }
 		return false;

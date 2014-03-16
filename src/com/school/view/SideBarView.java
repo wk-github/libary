@@ -28,6 +28,7 @@ import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class SideBarView extends LinearLayout {
 	private ListView listView = null;
@@ -51,6 +52,8 @@ public class SideBarView extends LinearLayout {
 	//“˛≤ÿ≤‡¿∏
 	public  void hiddenListView() {
 		// TODO Auto-generated method stub
+		
+		
 		rbmOutsideView.setVisibility(View.GONE);
 		rbmOutsideView.startAnimation(AnimationUtils.loadAnimation(getContext(), R.anim.rbm_out_to_left));
 	}
@@ -58,6 +61,7 @@ public class SideBarView extends LinearLayout {
 	//œ‘ æ≤‡¿∏
 	public void showListView() {
 		// TODO Auto-generated method stub
+		
 		rbmOutsideView.setVisibility(View.VISIBLE);
 		rbmOutsideView.startAnimation(AnimationUtils.loadAnimation(getContext(), R.anim.rbm_in_from_left));
 	}

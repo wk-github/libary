@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/FrameLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/resbg"
+    tools:ignore="HardcodedText,ContentDescription" >
+
+   
+        <LinearLayout
+            android:id="@+id/LinearLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/Imgsearch"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_margin="@dimen/activity_vertical_margin"
+                android:background="@drawable/menu"
+                android:contentDescription="TODO" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|right" >
+
+            <ImageButton
+                android:id="@+id/back"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="top|right"
+                android:layout_margin="@dimen/activity_vertical_margin"
+                android:background="@drawable/return1"
+                android:contentDescription="TODO" />
+        </LinearLayout>
+    
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="252dp"
+        android:layout_gravity="center"
+        android:gravity="center" >
+
+        <ListView
+            android:id="@+id/listView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </ListView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearlayout3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:gravity="bottom|center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center|fill"
+                android:orientation="horizontal" >
+
+                <ImageButton
+                    android:id="@+id/imageButton1"
+                    android:layout_width="33dp"
+                    android:layout_height="33dp"
+                    android:layout_gravity="left|center"
+                    android:background="@drawable/sear" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/autoCompleteTextView1"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/sousuokuang"
+                    android:ems="10"
+                    android:text="@string/autocompletetextview" />
+
+            </LinearLayout>
+
+        <Button
+            android:id="@+id/luyin"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom|center|top"
+            android:background="@drawable/yuyin" />
+    </LinearLayout>
+
+</FrameLayout>
